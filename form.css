@@ -1,0 +1,38 @@
+
+fieldset{
+
+
+padding: 50px;
+text-align:left;
+
+}
+h1{
+	text-align: center;
+}
+div{
+	text-align: center;
+
+}
+.inform {
+	display:flex;
+	flex-direction: column;
+	width: 250px;
+	margin: 7px;
+	height: 20px;
+}
+.vert{
+	display: flex;
+	flex-direction: row;
+}
+
+.box{
+	width: 250px;
+}
+.btn{
+	
+	width:20px ;
+}
+.form1{
+	text-align: center;
+
+}
