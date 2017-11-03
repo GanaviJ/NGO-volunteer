@@ -1,9 +1,25 @@
+.box{red;
+	background-color: blue;
+	float: center;
+	
+}
+.loginLabel{
+	background-color: pink;
+	padding: 20px;
+	text-align: center;
+
+}
 .forms{
 	background-color: red;
+	display: flex;
+	flex-direction: column;
+	
+
 }
-.box{
+html{
 	background-color: yellow;
+	background-image: 
 }
-.text .button .loginLabel{
-	background-color: green;
+.text{
+	margin: 10px;
 }
