@@ -1,25 +1,49 @@
-.box{red;
-	background-color: blue;
-	float: center;
+.box{
+
 	
+	position: relative;
+	top: 125px;
+
 }
 .loginLabel{
-	background-color: pink;
-	padding: 20px;
+	
 	text-align: center;
-
 }
 .forms{
-	background-color: red;
-	display: flex;
-	flex-direction: column;
-	
+	background-color: white;
+	margin: auto;
+	width: 35%;
 
 }
-html{
-	background-color: yellow;
-	background-image: 
+h1{
+	background-image: linear-gradient(to right, #003F87, #87CEFA 50%, #BFEFFF);
+	color: 	white;
 }
-.text{
-	margin: 10px;
+
+
+html{
+	 
+	background-image: linear-gradient(to right, #003F87, #87CEFA 50%, #BFEFFF);
+}
+.text1 ,.button{
+	-webkit-appearance: none;
+
+	width: 50%;
+	
+	font-size: 100%;
+	box-sizing: border-box;
+	padding: 3px;
+	
+	border-radius: 5px;
+	position: relative;
+	left:70px;
+	margin: 7px;
+
+}
+.button{
+	
+	color: white;
+	background-image: linear-gradient(to right, #003F87, #87CEFA 50%, #BFEFFF);
+	text-align: center;
+	padding: 6px;
 }
