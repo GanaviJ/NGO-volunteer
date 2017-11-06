@@ -1,38 +1,31 @@
-
-fieldset{
-
-
-padding: 50px;
-text-align:left;
-
-}
-h1{
-	text-align: center;
-}
-div{
-	text-align: center;
-
-}
-.inform {
-	display:flex;
-	flex-direction: column;
-	width: 250px;
-	margin: 7px;
-	height: 20px;
-}
-.vert{
-	display: flex;
-	flex-direction: row;
-}
-
-.box{
-	width: 250px;
-}
-.btn{
-	
-	width:20px ;
+html{
+	background-image: linear-gradient(to right, #003F87, #87CEFA 50%, #BFEFFF);
 }
 .form1{
+	background-color: white;
+	width: 35%;
+	margin: auto;
+}
+h1{
+	color: white;
+	background-image: linear-gradient(to right, #003F87, #87CEFA 50%, #BFEFFF);
 	text-align: center;
+	position: static;
+}
+.name,.phone_number,.email,.password,.no_of_branches,.establishment,.skills,.add_values,.no_of_hours,.butn{
+	-webkit-appearance: none;
 
+	
+	
+	font-size: 100%;
+	box-sizing: border-box;
+	padding: 3px;
+	
+	border-radius: 5px;
+	width: 90%;
+	margin: 3px;
+}
+.butn{
+	background-color: #003F87;
+	color: white;
 }

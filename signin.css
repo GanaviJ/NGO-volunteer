@@ -43,7 +43,7 @@ html{
 .button{
 	
 	color: white;
-	background-image: linear-gradient(to right, #003F87, #87CEFA 50%, #BFEFFF);
+	background-color:  #003F87;
 	text-align: center;
 	padding: 6px;
 }
