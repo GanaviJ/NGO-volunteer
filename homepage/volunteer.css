@@ -1,0 +1,63 @@
+html{
+	background-image: linear-gradient(to right, #003F87, #87CEFA 50%, #BFEFFF);
+}
+body{
+	position: relative;
+	top: 60px;
+	}
+h1{
+	color: white;
+	background-image: linear-gradient(to right, #003F87, #87CEFA 50%, #BFEFFF);
+	text-align: center;
+	position: static;
+	
+}
+.performs,.techform{
+	background-color: white;
+	width: 35%;
+	margin: auto;
+}
+.head1,.foot1{
+	background-color: #003F87;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	
+	top:0px;
+	left: 0px;
+}
+.head1{
+	position: fixed;
+}
+.Home,.Login,.Signup,.About,.Terms{
+	margin: 10px;
+	padding: 6px;
+	background-color:  #BFEFFF;
+	width: 75px;
+	color: white;	
+	text-align: center;
+	}
+.text,.email,.password,.inform,select,.butn,.date{
+	-webkit-appearance: none;
+	font-size: 100%;
+	box-sizing: border-box;
+	padding: 3px;
+	border-radius: 5px;
+	width: 90%;
+	margin: 3px;
+}
+span{
+	color: #696969;
+	font-size: 17px;
+}
+.butn{
+	background-color: #003F87;
+	color: white;
+}
+option,input[type=radio]{
+	color:#808080;
+}
+.rad{
+	display: flex;
+	flex-wrap: 
+}

@@ -1,0 +1,130 @@
+*{
+
+}
+.col-7{
+	width: 58.23%;
+	
+}
+.col-3{
+	width: 25%;
+	background-color: ;
+}
+.col-10{
+	width: 83.33%;
+	background-color: red;
+}
+html{
+	background-color: #BFEFFF;
+}
+h1{
+	
+	width: 100%;
+	color: #003F87;
+	margin: 30px;
+}
+.head1,.foot1{
+	background-image: linear-gradient(to right, #003F87, #87CEFA 50%, #BFEFFF);
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	
+	top:0px;
+	left: 0px;
+}
+.head1{
+	position: fixed;
+}
+.Home,.Login,.Signup,.Email,.About,.Terms{
+	margin: 10px;
+	padding: 6px;
+	background-color:  #003F87;
+	width: 75px;
+	color: white;	
+	text-align: center;
+	}
+footer{
+	background-color: #ff7c4c;
+	
+	
+}
+.para::first-letter{
+	border: 1px solid;
+    font-weight: bold;
+    color: #003F87;
+    font-size: 30px;
+
+}
+body{
+	position: relative;
+	top: 33px;
+	left: 0px;
+}
+.row1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 10px;
+}
+.para {
+  line-height: 1.6; 
+  font-family: Helvetica;
+  
+  margin: 0;
+  font-size: 14px;
+}
+
+.img {
+  float: left;
+  width: 250px; 
+ 
+  shape-margin:20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 400px){
+	.para{
+		background-color: yellow;
+		width: 100%;}
+	
+}
+.pic{
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.pic1{
+	
+}
+.row2{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+.pic2{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top:50px;
+}
+p{
+	justify-content: right;
+}
+[.img{
+	width: 40%;
+	margin-right: 30px;
+	float: left;
+
+}]
+[.img,.para{
+	margin: 20px;
+	margin-bottom: 30px;
+	}
+.para{
+	width:40%;
+}]
+[@media only screen and (max-width: 700px){
+	.para{
+		background-color: green;}
+		
+	
+}]
