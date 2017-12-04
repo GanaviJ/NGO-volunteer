@@ -1,0 +1,31 @@
+.head1,.foot1{
+	background-image: linear-gradient(to right, #003F87, #87CEFA 50%, #BFEFFF);
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	
+	
+}
+.head1{
+	position: fixed;
+	top:0px;
+	left: 0px;
+}
+.foot1{
+	width:100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+}
+.Home,.Login,.Signup,.Email,.About,.Terms{
+	margin: 10px;
+	padding: 6px;
+	background-color:  #003F87;
+	width: 75px;
+	color: white;	
+	text-align: center;
+}
+body{
+	margin-bottom: 75px;
+}

@@ -40,6 +40,26 @@ html{
 	margin: 7px;
 
 }
+.head1,.foot1{
+	background-color: #003F87;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	
+	top:0px;
+	left: 0px;
+}
+.head1{
+	position: fixed;
+}
+.Home,.Login,.Signup,.Email,.About,.Terms{
+	margin: 10px;
+	padding: 6px;
+	background-color:  #BFEFFF;
+	width: 75px;
+	color: white;	
+	text-align: center;
+	}
 .button{
 	
 	color: white;
